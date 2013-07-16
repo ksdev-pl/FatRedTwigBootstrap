@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}Title{% endblock %}</title>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    {#<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.min.css">#}
+    <link rel="stylesheet" href="/public/css/main.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+</head>
+<body>
+
+    <!-- body -->
+    <div class="container">
+        {% block body %}Body{% endblock %}
+    </div>
+
+    <!-- js -->
+    <script src="/public/js/jquery.js"></script>
+    {#<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>#}
+    <script src="/public/js/bootstrap.js"></script>
+    {#<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>#}
+    <script src="/public/js/main.js"></script>
+</body>
+</html>

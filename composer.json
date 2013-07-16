@@ -1,0 +1,10 @@
+{
+    "require": {
+        "bcosca/fatfree": "3.2.*",
+        "twig/twig": "1.*",
+        "gabordemooij/redbean": "3.*"
+    },
+    "autoload": {
+        "classmap": ["app/controllers", "app/models"]
+    }
+}
