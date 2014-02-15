@@ -5,7 +5,7 @@ Requires PHP 5.4 (short array syntax)
 * [__Fat-Free Framework:__](https://github.com/bcosca/fatfree) 3.2.*
 * [__RedBean ORM:__](https://github.com/gabordemooij/redbean) 3.*
 * [__Twig templates:__](https://github.com/fabpot/Twig) 1.*
-* [__Twitter Bootstrap:__](https://github.com/twbs/bootstrap) 3.1.0
+* [__Twitter Bootstrap:__](https://github.com/twbs/bootstrap) 3.1.1
 
 ##### Installation:
 * `git clone https://github.com/ks-git/FatRedTwigBootstrap.git`
